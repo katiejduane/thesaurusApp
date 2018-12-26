@@ -3,27 +3,31 @@ body {
     color: seashell;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0 auto;
+    
 }
 
 .wrapper {
     /* text-align: center; */
-    margin: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-
-.container {
-    width: 60%;
-}
 
 h1 {
     font-family: 'Rokkitt', serif;
     font-size: 30pt;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     margin-top: -20px;
+    text-align: center;
+}
+
+#word-form {
+    text-align: center;
 }
 
 button {
@@ -45,16 +49,43 @@ button {
     height: 25px;
     width: 150px;
     font-size: 10pt;
-    margin-top: 15px;
+    /* margin: 15px; */
 }
 
 .wordType {
-    margin: 5px;
+    margin: 3px;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-family: 'Rokkitt', serif;
+    font-size: 16pt;
+    font-weight: bold;
 
 }
 
+/* .word-info-box {
+    display: flex;
+} */
+
 .relBox {
-    border: solid white 1px;
+    /* border: solid seagreen 1px; */
+    background-color: seashell;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* width: 80%; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.relResults {
+    color: palevioletred;
+    /* border: 1px solid seashell; */
+}
+
+.wordRel {
+    color: rgb(176, 245, 182);
+    font-weight: bold;
 }
 
 
